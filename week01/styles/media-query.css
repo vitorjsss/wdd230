@@ -1,0 +1,22 @@
+@media only screen and (max-width: 640px) {
+    header, main, footer {
+        font-family: 'Roboto', sans-serif;
+        display: grid;
+        margin: 1rem auto;
+        border: rgb(221, 221, 244);
+        padding: 1rem;
+        background-color: rgb(143, 143, 244);
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    section {
+        display: grid;
+        padding: 1rem;
+        background-color: rgb(255, 255, 255);
+    }
+  }
