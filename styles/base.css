@@ -1,0 +1,95 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:wght@200&display=swap|family=Sanchez&display=swap');
+
+body {
+    padding: 5px;
+    font-size: 18px;
+    color: black;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 50px;
+    font-family: "Montserrat", monospace;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: "Sanchez", monospace;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+nav {
+    color: white;
+    background-color: rgb(31, 30, 30);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+    
+  }
+  nav a:hover {
+    color: rgb(139, 169, 187);
+    font-size: 1.1em;
+  }
+
+header {
+    color: white;
+    background-color: rgb(23, 78, 112);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+header h1 {
+    grid-template-columns: 1/2;
+}
+
+header img {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0px 10px 20px;
+    line-height: 30px;
+}
+
+.card {
+    box-shadow: 1px 1px 4px 1px #888888;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    text-align: center;
+    color: white;
+    background-color: rgb(23, 78, 112);
+    border-radius: 5px 5px 0px 0px;
+    margin: auto;
+}
+
+.card a {
+    padding: 0px 10px 20px;
+    line-height: 70px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(23, 78, 112);
+    text-align: center;
+    display: grid;
+}
