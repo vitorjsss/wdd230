@@ -1,19 +1,7 @@
-const daynames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-]
+const todaysdate = new Date();
+const year = todaysdate.getFullYear();
 
-const months = [
-    
-]
+document.getElementById("currentYear").textContent = year;
 
-const options = {
-    year: "long",
-};
-
-document.getElementById("currentYear").textContent = new Date().toLocaleDateString('en-US', options);
+document.getElementById("lastModified").textContent = "Last Modification: " + todaysdate.getDay() + "/" + todaysdate.getMonth() + "/" + todaysdate.getFullYear() + 
+"/" + todaysdate.getHours() + ":" + todaysdate.getMinutes() + ":" + todaysdate.getSeconds();
