@@ -31,7 +31,7 @@
     </ul>
 
     <script>
-        var shoppingList = document.querySelector('ul');
+        var list = document.querySelector('ul');
         var input = document.querySelector('input');
         var button = document.querySelector('button');
 
@@ -47,10 +47,10 @@
             listText.textContent = myItem;
             listItem.appendChild(listBtn);
             listBtn.textContent = 'Delete';
-            listItem.appendChild(listItem)
+            list.appendChild(listItem)
 
             listBtn.addEventListener('click', () => {
-                shoppingList.removeChild(listItem);
+                list.removeChild(listItem);
             });
 
             input.focus();
